@@ -1,0 +1,7 @@
+Dataset source:
+https://github.com/fuzhenxin/textstyletransferdata/tree/master/sentiment
+
+Place the following files into the data/ directory before running:
+- pos.txt
+- neg.txt
+- stopwords.txt
