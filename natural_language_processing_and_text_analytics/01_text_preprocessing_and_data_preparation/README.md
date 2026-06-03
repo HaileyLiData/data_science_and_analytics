@@ -214,15 +214,19 @@ University of Waterloo
 ## Repository Structure
 
 ```text
-01_Text_Preprocessing_and_Data_Preparation/
+02_text_classification_with_multinomial_naive_bayes
 │
 ├── README.md
 ├── main.py
-├── test_assignment1.py
 ├── requirements.txt
-└── data/
-    └── dataset_instructions.txt
-```
+│
+└── models
+    ├── unigrams_with_stopwords.pkl
+    ├── bigrams_with_stopwords.pkl
+    ├── unigrams_bigrams_with_stopwords.pkl
+    ├── unigrams_without_stopwords.pkl
+    ├── bigrams_without_stopwords.pkl
+    └── unigrams_bigrams_without_stopwords.pkl
 
 ---
 
