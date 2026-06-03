@@ -189,6 +189,24 @@ University of Waterloo
 
 ---
 
+## Repository Structure
+
+```text
+02_text_classification_with_multinomial_naive_bayes
+│
+├── README.md
+├── main.py
+├── requirements.txt
+│
+└── models
+    ├── unigrams_with_stopwords.pkl
+    ├── bigrams_with_stopwords.pkl
+    ├── unigrams_bigrams_with_stopwords.pkl
+    ├── unigrams_without_stopwords.pkl
+    ├── bigrams_without_stopwords.pkl
+    └── unigrams_bigrams_without_stopwords.pkl
+```
+
 ## Repository Notes
 
 This project is organized as a portfolio-style NLP classification module focused on practical sentiment analysis workflows and comparative feature engineering experiments.
