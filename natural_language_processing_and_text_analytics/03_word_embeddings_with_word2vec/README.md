@@ -36,13 +36,11 @@ The project focuses on:
 
 Loading tokenized review data generated during preprocessing.
 
-Input datasets may include:
+Input dataset used:
 
 * train.csv
-* train_ns.csv
-* train_subset.csv
 
-Each document is represented as a sequence of tokens.
+This project uses the full tokenized training dataset generated during the text preprocessing stage. The version with stopwords retained was selected for Word2Vec training in order to preserve contextual information and semantic relationships between words.
 
 ---
 
