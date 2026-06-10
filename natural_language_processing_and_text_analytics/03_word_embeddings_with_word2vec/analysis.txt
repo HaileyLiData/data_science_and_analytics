@@ -1,0 +1,38 @@
+Analysis of Word2Vec Similarities - Assignment 3
+
+Student Name: Li Xiaohui
+Student ID: 21221482
+
+=== WORD SIMILARITY RESULTS ===
+
+Words most similar to "good":
+1. decent: 0.8188
+2. great: 0.7995
+3. nice: 0.7181
+4. fantastic: 0.7071
+5. "great": 0.6919
+6. wonderful: 0.6698
+7. bad: 0.6568
+8. terrific: 0.6478
+9. goog: 0.6463
+10. phenomenal: 0.6462
+
+Words most similar to "bad":
+1. terrible: 0.7249
+2. sucky: 0.7047
+3. horrible: 0.6970
+4. awful: 0.6788
+5. good: 0.6568
+6. poor: 0.6426
+7. dumb: 0.6317
+8. funny: 0.6290
+9. risky: 0.6215
+10. good?: 0.6210
+
+=== ANALYSIS ===
+
+The words most similar to "good" (such as "decent", "great", "fantastic", "wonderful") are generally positive in sentiment. Similarly, the words most similar to "bad" (such as "terrible", "horrible", "awful", "poor") are mostly negative in sentiment.
+
+This pattern occurs because Word2Vec learns word representations based on context. In product reviews, positive words like "good", "great", and "excellent" frequently appear together in positive reviews, while negative words like "bad", "terrible", and "awful" tend to co-occur in negative reviews. As a result, Word2Vec indirectly captures sentiment patterns - not because it understands emotion, but because words with similar sentiment share similar contexts.
+
+Interestingly, "good" and "bad" also appear in each other's top 10 similar words (bad ranks 7th for good, good ranks 5th for bad). This demonstrates the difference between semantic similarity and sentiment. Word2Vec captures how words are used (semantic similarity) rather than their emotional meaning (sentiment), so words with opposite meanings but identical usage patterns like "This product is ___" can still have similar vectors.
