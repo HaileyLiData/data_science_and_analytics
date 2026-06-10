@@ -215,8 +215,7 @@ University of Waterloo
 ├── analysis.txt
 ├── word_similarities.json
 │
-└── models
-    └── word2vec_model.model
+└── word2vec_model.model
 ```
 
 ---
