@@ -225,6 +225,27 @@ This project demonstrates:
 
 ---
 
+## Experimental Findings ⭐
+
+The neural network experiments revealed several important patterns:
+
+• ReLU achieved the strongest overall performance, outperforming both Tanh and Sigmoid.
+
+• Lower L2 regularization (0.001) consistently produced better results than stronger regularization (0.01).
+
+• A dropout rate of 0.3 provided a better balance between generalization and information retention than 0.5.
+
+• The best overall configuration was:
+  - Activation Function: ReLU
+  - L2 Regularization: 0.001
+  - Dropout Rate: 0.3
+  - Validation Accuracy: 79.21%
+  - Test Accuracy: 78.58%
+
+These results demonstrate that neural network performance is highly sensitive to hyperparameter selection and that systematic experimentation is essential for building effective NLP classifiers.
+
+---
+
 ## Academic Context
 
 Developed as part of graduate-level coursework in:
