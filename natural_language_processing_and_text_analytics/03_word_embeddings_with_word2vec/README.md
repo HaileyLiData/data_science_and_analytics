@@ -162,36 +162,6 @@ This project demonstrates:
 
 ---
 
-## Key NLP Evolution
-
-This project represents an important stage in the evolution of Natural Language Processing:
-
-Bag-of-Words
-
-↓
-
-TF-IDF
-
-↓
-
-Word2Vec
-
-↓
-
-Transformer
-
-↓
-
-BERT
-
-↓
-
-GPT
-
-Word2Vec was one of the first successful approaches to learning meaningful word representations from large text corpora.
-
----
-
 ## Academic Context
 
 Developed as part of graduate-level coursework in:
